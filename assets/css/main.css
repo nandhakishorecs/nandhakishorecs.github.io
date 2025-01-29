@@ -1202,11 +1202,11 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: #000000;/* rgba(255, 255, 255, 0.175); */
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color:  #000000;/* rgba(255, 255, 255, 0.175); */
 					}
 
 		#header nav.use-middle:after {
@@ -1379,7 +1379,7 @@ input, select, textarea {
 			position: relative;
 			width: 65rem;
 			max-width: 100%;
-			background-color: rgba(5, 10, 42, 0.85);
+			background-color: #000000; /*rgba(5, 10, 42, 0.85);/*
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1425,11 +1425,11 @@ input, select, textarea {
 				}
 
 				#main article .close:hover:before {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color:  #000000; /*rgba(255, 255, 255, 0.075);*/ 
 				}
 
 				#main article .close:active:before {
-					background-color: rgba(255, 255, 255, 0.175);
+					background-color:  #000000; /*rgba(255, 255, 255, 0.075);*/ 
 				}
 
 		@media screen and (max-width: 736px) {
