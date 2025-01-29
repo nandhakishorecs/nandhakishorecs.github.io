@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: E2E2B6; /*#1b1f22;*/
+		background: #1b1f22;
 		
 	}
 
@@ -490,13 +490,13 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			/* background-image: url("../../images/overlay.png"); */
-			background-color: rgba(02, 15, 26, 0.5); 
+			/* background-color: rgba(19, 21, 25, 0.5); */
 			border-radius: 4px;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 1;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -984,13 +984,10 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(55, 89, 158, 0.5), rgba(77, 122, 211, 0.5)), url("../../images/overlay.png");
-			background-size: 3840px 2160px,
-256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- no-repeat;
+			/* background-image: linear-gradient(to top, rgba(55, 89, 158, 0.5), rgba(77, 122, 211, 0.5)); , url("../../images/overlay.png");*/ 
+			background-size: 3840px 2160px,256px 256px; 
+			background-position: center,center;
+			background-repeat: no-repeat,no-repeat;
 			z-index: 1.5;
 		}
 
@@ -1003,7 +1000,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.925s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.925s ease-in-out, filter 0.325s ease-in-out;
-			background-image: ; rgba(02, 15, 26, 0.5)/*URL("../../images/Space_wallpaper.jpeg");*/
+			/*background-image: url("../../images/MilkyWay.jpeg");*/
 			filter:brightness(50%);
 			background-position: center;
 			background-size: cover;
@@ -1422,7 +1419,7 @@ input, select, textarea {
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+					/*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");*/
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
