@@ -986,7 +986,7 @@ input, select, textarea {
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(55, 89, 158, 0.5), rgba(77, 122, 211, 0.5)), url("../../images/overlay.png");
 			background-size: 3840px 2160px,
- 256px 256px;
+256px 256px;
 			background-position: center,
  center;
 			background-repeat: no-repeat,
@@ -1003,7 +1003,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.925s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.925s ease-in-out, filter 0.325s ease-in-out;
-			background-image: URL("../../images/Space_wallpaper.jpeg");
+			background-image: ; rgba(02, 15, 26, 0.5)/*URL("../../images/Space_wallpaper.jpeg");*/
 			filter:brightness(50%);
 			background-position: center;
 			background-size: cover;
