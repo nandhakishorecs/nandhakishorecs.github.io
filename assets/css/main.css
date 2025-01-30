@@ -157,7 +157,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		border-bottom: #6EACDA;/*dotted 1px rgba(255, 255, 255, 0.5);*/
 		text-decoration: none;
 		color: inherit;
 	}
@@ -383,8 +383,8 @@ input, select, textarea {
 		width: 25px;
 		height: 25px;
 		right: -13px;
-		background-color: aquamarine;
-		border: 4px solid aquamarine;
+		background-color: #6EACDA;
+		border: 4px solid #6EACDA;
 		top: 15px;
 		border-radius: 50%;
 		z-index: 1;
@@ -489,8 +489,8 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			/* background-image: url("../../images/overlay.png"); */
-			/* background-color: rgba(19, 21, 25, 0.5); */
+			background-image: url("../../images/overlay.png"); 
+			background-color: rgba(0, 0, 0, 0); 
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1098,10 +1098,10 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		/* background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
 		max-width: 100%;
 		text-align: center;
 	}
